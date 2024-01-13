@@ -1,0 +1,104 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+   
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#colorDiv{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(179, 74, 74);
+}
+
+#shapeDiv{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+}
+
+
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: chartreuse;
+    color: blue;
+    font-size: 15px;
+    scale: 1.2;
+    transition-duration: 0.3s;
+}
+
+
+
+
+
+#circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+}
+
+#triangle{
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+background-color: #eb4747
+}
+
+#rhombus{
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background-color: green;
+}
+#parallelogram{
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: chocolate;
+}
+#hexagon{
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-color: orange;
+}
+#pentagon{
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background-color: yellow;
+}
+#trapezoid{
+    height: 120px;
+    width: 120px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: rgb(0, 85, 255);
+}
